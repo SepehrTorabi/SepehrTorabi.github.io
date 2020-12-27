@@ -6,10 +6,52 @@
 <title>Certificates</title>
 </head>
 <style>
-body {center}
+body {center;
+text-align: center;}
+
+img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+.vertical-menu {
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #000000;
+  color: white;
+}
 </style>
 <body>
-<img src="certificates.png" alt="Please Refresh" width: 100%; height: auto;>
+<div class="vertical-menu">
+  <a href="#" class="active">Certificates</a>
+  <a href="#1">Patchwork Certificate</a>
+  <a href="#2">JavaScript Certificate</a>
+</div>
+<br>
+<h2 id=1> Patchwork Certificate </h2>
+<br>
+<img src="patchworkMarked.png" alt="Please Reload" max-width: 50%; height: auto;>
+<br>
+<h2 id=2> JavaScript Certificate </h2>
+<br>
+<img src="cert-1024-20692538.jpg" alt="Please Reload" max-width: 50%; height: auto;>
 </object>
 </body>
 </html>
